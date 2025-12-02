@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .a {
+        font-size: 20px;
+        color: white;
+        background-color: #4a349c;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        text-align: center;
+        line-height: 100px;
+        left:40px;
+        margin-top: 30px;
+        /* z-index: 3; */
+    }
+    .b {
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        text-align: center;
+        line-height: 100px;
+        left:40px;
+        margin-top: 30px;
+        right: 700px;
+        bottom: 0px;
+        /* z-index: 5; */
+    }
+
+    .c {
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        text-align: center;
+        line-height: 100px;
+        left:40px;
+        top:0px;
+        margin-top: 50px;
+        z-index: 1;
+        bottom: 1000px;
+
+
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+    
+    <form>
+       <label>Username</label>
+         <input type="text" placeholder="Enter Username" required>
+            <br><br>
+        <label>Email</label>
+         <input type="email" placeholder="Enter Email" required>
+            <br><br>    
+        <label>Password</label>
+         <input type="password" placeholder="Enter Password" required>
+            <br><br>
+        <label>Age</label>
+         <input type="number" placeholder="Enter Age" required>
+            <br><br>
+
+            <lable>Gender</lable>
+            <input type="radio" name="gender" value="male" >
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" >
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" >
+            <label for="other">Other</label>
+            <br><br>
+        <button type="submit">Submit</button>
+        </form> 
+
+
+<p>
+<div class="a">1</div>
+<div class="b">2</div>
+<div class="c">3</div>
+
+</p>
+
+
+
+    
+
+
+
+
+
+</body>
+</html>
