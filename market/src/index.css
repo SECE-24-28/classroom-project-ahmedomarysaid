@@ -1,0 +1,48 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth text rendering */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* Remove default button & input outlines */
+button,
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Improve image rendering */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Scrollbar (optional, looks clean) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e5e7eb;
+}
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
